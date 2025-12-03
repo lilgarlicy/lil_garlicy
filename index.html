@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Onion Memecoin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="home">
+  <header class="site-header">
+    <h1>Onion Memecoin</h1>
+    <p>Der lachende Knoblauch mit den schärfsten Gains.</p>
+  </header>
+
+  <main class="content">
+    <section class="hero">
+      <img src="onion-hero.png"
+           alt="Lachendes Knoblauch-Plüschtier – Maskottchen des Memecoins"
+           class="hero-image" />
+
+      <div class="hero-text">
+        <h2>Ein Coin, der Tränen vor Lachen bringt</h2>
+        <p>
+          Aus einer einfachen Knoblauchzehe wurde eine Legende.
+          Begleite ihn auf seinen Abenteuern durch die Welt der Memecoins.
+        </p>
+
+        <a href="adventures.html" class="btn-primary">
+          Explore his adventures
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Onion Memecoin – Just for fun, not financial advice.</p>
+  </footer>
+
+  <script>
+    // Jahr im Footer automatisch setzen
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

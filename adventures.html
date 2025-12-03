@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Onion Adventures</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="adventures">
+  <header class="site-header">
+    <h1>Onion Adventures</h1>
+    <p>Folge seinem Duft durch das Web.</p>
+  </header>
+
+  <main class="content">
+    <section class="links-card">
+      <h2>Folge dem Memecoin</h2>
+      <p>Bleib auf dem Laufenden und verfolge jede seiner verrückten Aktionen:</p>
+
+      <ul class="links-list">
+        <li>
+          <a href="https://x.com/DEIN_HANDLE" target="_blank" rel="noopener">
+            X (Twitter)
+          </a>
+        </li>
+        <li>
+          <a href="https://youtube.com/@DEIN_KANAL" target="_blank" rel="noopener">
+            YouTube
+          </a>
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/@DEIN_ACCOUNT" target="_blank" rel="noopener">
+            TikTok
+          </a>
+        </li>
+        <li class="highlight-link">
+          <a href="https://axiom.xyz/DEIN_MEMECOIN_LINK" target="_blank" rel="noopener">
+            Trade den Memecoin auf Axiom
+          </a>
+        </li>
+      </ul>
+
+      <a href="index.html" class="btn-secondary">Zurück zur Hauptseite</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Onion Memecoin – Just for fun, not financial advice.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
